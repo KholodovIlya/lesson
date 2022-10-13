@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8"><link rel="icon" href="resources/images/icon.svg"><title>Сайт | Вопросы</title>
+    <link rel="stylesheet" href="resources/style.css">
+  </head>
+
+  <body>
+    <nav>
+        <a href="index.html">главная</a>
+        <a href="questions.html">вопросы</a>
+        <a href="about.html">о нас</a>
+    </nav>
+
+
+    <h1>Форма обратной связи</h1>
+    <form>
+      <label>
+        ФИО:<br>
+        <input type="text" height="100px" id="defaultInput"><br>
+      </label>
+
+      <label>
+        Возраст:<br>
+        <input type="number" height="100px" id="defaultInput"><br>
+      </label>
+
+      <div>
+        <label class="gender">Пол:<br>
+        <input type="radio" class="checkmark" name="contact">
+        М</label>
+    
+        <label class="gender">
+        <input type="radio" class="checkmark" name="contact">
+        Ж</label>
+      </div>
+
+      <label>
+        Электронная почта:<br>
+        <input type="mail" height="100px" id="defaultInput"><br>
+      </label>
+
+      <label>
+        Коментарий:<br>
+      <textarea rows="8"></textarea>
+      </label>
+      <div class="defaultButton"><button type="submit">Submit</button></div>
+    </form>
+  </body>
+</html>
